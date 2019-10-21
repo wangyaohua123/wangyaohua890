@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/event/event"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTitleText":"王耀华",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle":"dark",
+    "backgroundColor":"red"
+  },
+  "tabBar":{
+    "color":"rgba(0,0,0,0.6)",
+    "selectedColor":"#000000",
+    "borderStyle":"white",
+    "list":[
+      {
+       "text":"首页", 
+       "pagePath":"pages/index/index",
+       "iconPath":"assets/icon/home.png",
+       "selectedIconPath":"assets/icon/home-active.png"
+      },
+      {
+        "text":"路线", 
+        "pagePath":"pages/event/event",
+        "iconPath":"assets/icon/event.png",
+       "selectedIconPath":"assets/icon/event-active.png"
+       }
+    ]
+  }
+    
+  
+  
+}
